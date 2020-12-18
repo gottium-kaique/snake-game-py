@@ -47,7 +47,7 @@ miniApple = pygame.transform.scale(apple_image, (square_size + 10, square_size +
 clock = pygame.time.Clock()
 
 coin_music = pygame.mixer.Sound('coin.wav')
-font = pygame.font.SysFont('roboto', 32)
+font = pygame.font.SysFont('arial', 32)
 
 x_snake, y_snake = centerCoordinates
 x_control, y_control = [0, 20]
